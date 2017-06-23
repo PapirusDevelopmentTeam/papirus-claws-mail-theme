@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="tray_newmarkedmail.svg">
+  <metadata
+     id="metadata11">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="845"
+     id="namedview9"
+     showgrid="true"
+     inkscape:zoom="15.17"
+     inkscape:cx="0.13688808"
+     inkscape:cy="8.8586724"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4139" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+   .ColorScheme-Text { color:#ffffff; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#ffffff; }
+  </style>
+  </defs>
+  <g
+     id="g4136"
+     transform="translate(1,1)">
+    <path
+       sodipodi:nodetypes="sssscsscscsssccccccc"
+       inkscape:connector-curvature="0"
+       id="path7"
+       d="M 5,6 C 3.892,6 3,6.892 3,8 l 0,8 c 0,1.108 0.892,2 2,2 l 9,0 0,-4.599609 C 14,12.867057 14.413439,12.325507 14.751953,12.15625 15.090467,11.98699 15.400391,12 15.400391,12 l 3.199218,0 C 18.734386,12 18.870315,12.02734 19,12.07227 L 19,8 C 19,6.892 18.108,6 17,6 Z m 0,2 6,3 6,-3 0,2 -6,3 -6,-3 z"
+       style="opacity:1;fill:#ffffff;fill-opacity:1" />
+    <path
+       sodipodi:nodetypes="csccccsc"
+       id="path4145"
+       d="m 15.4,13 c 0,0 -0.4,0 -0.4,0.4 L 15,19 16.999999,17 19,19 19,13.4 c 0,0 0,-0.4 -0.400001,-0.4 z"
+       style="opacity:1;fill:#5294e2;fill-opacity:1"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
