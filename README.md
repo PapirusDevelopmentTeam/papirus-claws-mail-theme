@@ -1,9 +1,22 @@
 # Papirus Themes for Claws Mail
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-claws-mail-theme/master/preview.png" alt="Preview Papirus Themes Claws Mail"/>
 </p>
 
 ## Installation
+
+### Ubuntu and derivatives
+
+You can install Papirus icon themes for Claws Mail from our official [PPA](https://launchpad.net/~papirus/+archive/ubuntu/papirus):
+
+```
+sudo add-apt-repository ppa:papirus/papirus
+sudo apt-get update
+sudo apt-get install claws-mail-themes-papirus
+```
+
+or download .deb packages from [here](https://launchpad.net/~papirus/+archive/ubuntu/papirus/+packages?field.name_filter=claws-mail-themes-papirus).
 
 ### Papirus Installer
 
