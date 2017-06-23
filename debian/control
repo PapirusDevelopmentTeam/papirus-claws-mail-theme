@@ -1,0 +1,20 @@
+Source: claws-mail-themes-papirus
+Section: universe/mail
+Priority: optional
+Maintainer: Sergei Eremenko <finalitik@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/PapirusDevelopmentTeam/papirus-claws-mail-theme
+
+Package: claws-mail-themes-papirus
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Recommends: claws-mail
+Enhances: claws-mail
+Description: Papirus icon themes for the Claws Mail
+ This package contains the following icon themes for the Claws Mail:
+  - ePapirus
+  - Papirus
+  - Papirus-Dark
+  - Papirus-Light
