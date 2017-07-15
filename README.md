@@ -18,6 +18,12 @@ sudo apt-get install claws-mail-themes-papirus
 
 or download .deb packages from [here](https://launchpad.net/~papirus/+archive/ubuntu/papirus/+packages?field.name_filter=claws-mail-themes-papirus).
 
+### Arch Linux
+You can install Papirus icon themes for Claws Mail from [AUR](https://aur.archlinux.org/) by installing [papirus-claws-mail-theme-git](https://aur.archlinux.org/packages/papirus-claws-mail-theme-git/) package:
+```
+pacaur -S papirus-claws-mail-theme-git
+```
+
 ### Papirus Installer
 
 Use the scripts to install the latest version directly from this repo (independently on your distro):
