@@ -24,7 +24,7 @@ cat <<- EOF
 
 EOF
 
-temp_dir=$(mktemp -d)
+temp_dir="$(mktemp -d)"
 
 echo "=> Getting the latest version from GitHub ..."
 wget -O "/tmp/$gh_repo.tar.gz" \
@@ -38,7 +38,7 @@ sudo rm -rf "/usr/share/claws-mail/themes/Papirus" \
   "/usr/share/claws-mail/themes/Papirus-Light"
 echo "=> Installing ..."
 sudo mkdir -p /usr/share/claws-mail/themes
-sudo cp --no-preserve=mode,ownership -r \
+sudo cp -R \
   "$temp_dir/$gh_repo-master/Papirus" \
   "$temp_dir/$gh_repo-master/ePapirus" \
   "$temp_dir/$gh_repo-master/Papirus-Dark" \
