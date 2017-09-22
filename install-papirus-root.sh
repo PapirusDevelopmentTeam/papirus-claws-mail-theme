@@ -33,6 +33,8 @@ echo "=> Unpacking archive ..."
 tar -xzf "/tmp/$gh_repo.tar.gz" -C "$temp_dir"
 echo "=> Deleting old $gh_desc ..."
 sudo rm -rf "/usr/share/claws-mail/themes/Papirus" \
+  "/usr/share/claws-mail/themes/Papirus-Adapta" \
+  "/usr/share/claws-mail/themes/Papirus-Adapta-Nokto" \
   "/usr/share/claws-mail/themes/ePapirus" \
   "/usr/share/claws-mail/themes/Papirus-Dark" \
   "/usr/share/claws-mail/themes/Papirus-Light"
@@ -40,6 +42,8 @@ echo "=> Installing ..."
 sudo mkdir -p /usr/share/claws-mail/themes
 sudo cp -R \
   "$temp_dir/$gh_repo-master/Papirus" \
+  "$temp_dir/$gh_repo-master/Papirus-Adapta" \
+  "$temp_dir/$gh_repo-master/Papirus-Adapta-Nokto" \
   "$temp_dir/$gh_repo-master/ePapirus" \
   "$temp_dir/$gh_repo-master/Papirus-Dark" \
   "$temp_dir/$gh_repo-master/Papirus-Light" \

@@ -26,6 +26,8 @@ EOF
 
 echo "=> Removing $gh_desc ..."
 sudo rm -rf "/usr/share/claws-mail/themes/Papirus" \
+  "/usr/share/claws-mail/themes/Papirus-Adapta" \
+  "/usr/share/claws-mail/themes/Papirus-Adapta-Nokto" \
   "/usr/share/claws-mail/themes/ePapirus" \
   "/usr/share/claws-mail/themes/Papirus-Dark" \
   "/usr/share/claws-mail/themes/Papirus-Light"
