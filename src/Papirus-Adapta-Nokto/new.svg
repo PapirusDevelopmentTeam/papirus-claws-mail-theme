@@ -51,11 +51,11 @@
     <style
        type="text/css"
        id="current-color-scheme">
-   .ColorScheme-Text { color:#414c52; } .ColorScheme-Highlight { color:#00bcd4; } .ColorScheme-ButtonBackground { color:#cfd8dc; }
+   .ColorScheme-Text { color:#eeefef; } .ColorScheme-Highlight { color:#00bcd4; } .ColorScheme-ButtonBackground { color:#cfd8dc; }
   </style>
   </defs>
   <path
-     style="fill:#414c52;opacity:1;fill-opacity:1"
+     style="fill:#eeefef;opacity:1;fill-opacity:1"
      d="M 2 2 C 0.892 2 0 2.892 0 4 L 0 12 C 0 13.108 0.892 14 2 14 L 13 14 C 11.355 14 10 12.645 10 11 C 10 9.355 11.355 8 13 8 C 14.645 8 16 9.355 16 11 L 16 4 C 16 2.892 15.108 2 14 2 L 2 2 z M 2 4 L 8 7 L 14 4 L 14 6 L 8 9 L 2 6 L 2 4 z "
      id="path4143" />
   <path
