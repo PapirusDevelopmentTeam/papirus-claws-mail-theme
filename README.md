@@ -40,12 +40,13 @@ wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-claws
 wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-claws-mail-theme/master/remove-papirus.sh | sh
 ```
 
-### Unofficial packages
+### Third-party packages
 
 Packages in this section are not part of the official repositories. If you have a trouble or a question please contact with package maintainer.
 
 | **Distro** | **Maintainer** | **Package** |
 |:-----------|:---------------|:------------|
+| Arch Linux | Mohammadreza Abdollahzadeh | `yaourt -S papirus-claws-mail-theme-git` <sup>AUR [[link](https://aur.archlinux.org/packages/papirus-claws-mail-theme-git)]</sup> |
 | openSUSE   | Alexander Postol | [papirus-claws-mail-theme](http://software.opensuse.org//download.html?project=home:GNorth:Arc_and_Papirus&package=papirus-claws-mail-theme) <sup>OBS [[link](https://build.opensuse.org/package/show/home:GNorth:Arc_and_Papirus/papirus-claws-mail-theme)]</sub> |
 
 **NOTE:** If you maintainer and want be in the list please create an issue or send a pull request.
