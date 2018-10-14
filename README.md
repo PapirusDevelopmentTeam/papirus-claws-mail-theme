@@ -50,3 +50,22 @@ Packages in this section are not part of the official repositories. If you have 
 | openSUSE   | Alexander Postol | [papirus-claws-mail-theme](http://software.opensuse.org//download.html?project=home:GNorth:Arc_and_Papirus&package=papirus-claws-mail-theme) <sup>OBS [[link](https://build.opensuse.org/package/show/home:GNorth:Arc_and_Papirus/papirus-claws-mail-theme)]</sub> |
 
 **NOTE:** If you maintainer and want be in the list please create an issue or send a pull request.
+
+###  Manual Install
+
+1. Install dependencies:
+
+    - git
+    - make
+    - librsvg2-bin
+
+2. Run the following commands as normal user:
+
+    ```
+    git clone https://github.com/PapirusDevelopmentTeam/papirus-claws-mail-theme.git
+    cd papirus-claws-mail-theme
+    make build
+    sudo make install
+    ```
+
+3. Start Claws Mail and choose a theme.
