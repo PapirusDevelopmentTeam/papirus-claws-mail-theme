@@ -31,13 +31,13 @@ Use the scripts to install the latest version directly from this repo (independe
 #### Install / Update
 
 ```
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-claws-mail-theme/master/install-papirus-root.sh | sh
+wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-claws-mail-theme/master/install.sh | sh
 ```
 
 #### Remove
 
 ```
-wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-claws-mail-theme/master/remove-papirus.sh | sh
+wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-claws-mail-theme/master/install.sh | env uninstall=true sh
 ```
 
 ### Third-party packages
