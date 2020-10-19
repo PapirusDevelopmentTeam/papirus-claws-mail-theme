@@ -7,8 +7,6 @@ SCRIPT_DIR="$(dirname "${BASH_SOURCE[0]}")"
 declare -a THEMES=(
 	ePapirus
 	Papirus
-	Papirus-Adapta
-	Papirus-Adapta-Nokto
 	Papirus-Dark
 	Papirus-Light
 )
@@ -32,44 +30,30 @@ for theme in "${THEMES[@]}"; do
 		ePapirus)
 			theme_name="$theme"
 			find "$build_theme_dir" -type f -name '*.svg' -exec sed -i \
-				-e 's/#d3dae3/#ffffff/gI' \
-				-e 's/#5c616c/#6e6e6e/gI' \
-				-e 's/#5294e2/#5294e2/gI' '{}' \;
+				-e 's/#dfdfdf/#ffffff/gI' \
+				-e 's/#444444/#6e6e6e/gI' \
+				-e 's/#4285f4/#4285f4/gI' '{}' \;
 			;;
 		Papirus)
 			theme_name="$theme"
 			find "$build_theme_dir" -type f -name '*.svg' -exec sed -i \
-				-e 's/#d3dae3/#d3dae3/gI' \
-				-e 's/#5c616c/#5c616c/gI' \
-				-e 's/#5294e2/#5294e2/gI' '{}' \;
+				-e 's/#dfdfdf/#dfdfdf/gI' \
+				-e 's/#444444/#444444/gI' \
+				-e 's/#4285f4/#4285f4/gI' '{}' \;
 			;;
 		Papirus-Dark)
 			theme_name="$theme"
 			find "$build_theme_dir" -type f -name '*.svg' -exec sed -i \
-				-e 's/#d3dae3/#d3dae3/gI' \
-				-e 's/#5c616c/#d3dae3/gI' \
-				-e 's/#5294e2/#5294e2/gI' '{}' \;
+				-e 's/#dfdfdf/#dfdfdf/gI' \
+				-e 's/#444444/#dfdfdf/gI' \
+				-e 's/#4285f4/#4285f4/gI' '{}' \;
 			;;
 		Papirus-Light)
 			theme_name="$theme"
 			find "$build_theme_dir" -type f -name '*.svg' -exec sed -i \
-				-e 's/#d3dae3/#5c616c/gI' \
-				-e 's/#5c616c/#5c616c/gI' \
-				-e 's/#5294e2/#5294e2/gI' '{}' \;
-			;;
-		Papirus-Adapta)
-			theme_name="$theme"
-			find "$build_theme_dir" -type f -name '*.svg' -exec sed -i \
-				-e 's/#d3dae3/#cfd8dc/gI' \
-				-e 's/#5c616c/#414c52/gI' \
-				-e 's/#5294e2/#00bcd4/gI' '{}' \;
-			;;
-		Papirus-Adapta-Nokto)
-			theme_name="$theme"
-			find "$build_theme_dir" -type f -name '*.svg' -exec sed -i \
-				-e 's/#d3dae3/#cfd8dc/gI' \
-				-e 's/#5c616c/#cfd8dc/gI' \
-				-e 's/#5294e2/#00bcd4/gI' '{}' \;
+				-e 's/#dfdfdf/#444444/gI' \
+				-e 's/#444444/#444444/gI' \
+				-e 's/#4285f4/#4285f4/gI' '{}' \;
 			;;
 	esac
 

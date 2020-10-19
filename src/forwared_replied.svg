@@ -51,11 +51,11 @@
     <style
        type="text/css"
        id="current-color-scheme">
-   .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#d3dae3; }
+   .ColorScheme-Text { color:#444444; } .ColorScheme-Highlight { color:#4285f4; } .ColorScheme-ButtonBackground { color:#dfdfdf; }
   </style>
   </defs>
   <path
-     style="color:#5c616c;opacity:1;fill:currentColor"
+     style="color:#444444;opacity:1;fill:currentColor"
      class="ColorScheme-Text"
      d="M 9.5292969,1.5 16,6 l -6.4707031,4.5 0,-1.0429688 L 14.5,6 9.5292969,2.5429688 9.5292969,1.5 Z m -3.5,0 6.4687501,4.5 -6.4687501,4.5 0,-2.5 -0.5,0 c -1.3649,0 -2.5716,0.87335 -2.9375,2 -0.43763,1.3475 1.4375,4 1.4375,4 0,0 -4.00000002,-1.5 -4.00000002,-4.75 0,-3.1235 2.00000002,-5.25 5.00000002,-5.25 l 1,0 0,-2.5 z"
      id="path7"

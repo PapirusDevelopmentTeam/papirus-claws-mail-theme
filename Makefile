@@ -12,8 +12,6 @@ install:
 	mkdir -p $(DESTDIR)$(PREFIX)/share/claws-mail/themes
 	cp -R \
 		Papirus \
-		Papirus-Adapta \
-		Papirus-Adapta-Nokto \
 		ePapirus \
 		Papirus-Dark \
 		Papirus-Light \
@@ -21,8 +19,6 @@ install:
 
 uninstall:
 	-rm -rf $(DESTDIR)$(PREFIX)/share/claws-mail/themes/Papirus
-	-rm -rf $(DESTDIR)$(PREFIX)/share/claws-mail/themes/Papirus-Adapta
-	-rm -rf $(DESTDIR)$(PREFIX)/share/claws-mail/themes/Papirus-Adapta-Nokto
 	-rm -rf $(DESTDIR)$(PREFIX)/share/claws-mail/themes/ePapirus
 	-rm -rf $(DESTDIR)$(PREFIX)/share/claws-mail/themes/Papirus-Dark
 	-rm -rf $(DESTDIR)$(PREFIX)/share/claws-mail/themes/Papirus-Light

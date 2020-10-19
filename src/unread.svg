@@ -51,11 +51,11 @@
     <style
        type="text/css"
        id="current-color-scheme">
-   .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#d3dae3; }
+   .ColorScheme-Text { color:#444444; } .ColorScheme-Highlight { color:#4285f4; } .ColorScheme-ButtonBackground { color:#dfdfdf; }
   </style>
   </defs>
   <path
-     style="opacity:1;fill:#5294e2;fill-opacity:1"
+     style="opacity:1;fill:#4285f4;fill-opacity:1"
      d="M 8,2 A 6,6 0 0 0 2,8 6,6 0 0 0 8,14 6,6 0 0 0 14,8 6,6 0 0 0 8,2 Z"
      id="path7"
      inkscape:connector-curvature="0" />

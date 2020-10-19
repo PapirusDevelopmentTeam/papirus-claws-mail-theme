@@ -26,7 +26,7 @@ EOF
 
 : "${DESTDIR:=/usr/share/claws-mail/themes}"
 : "${TAG:=master}"
-: "${THEMES:=Papirus ePapirus Papirus-Dark Papirus-Light Papirus-Adapta Papirus-Adapta-Nokto}"
+: "${THEMES:=Papirus ePapirus Papirus-Dark Papirus-Light}"
 : "${uninstall:=false}"
 
 _msg() {

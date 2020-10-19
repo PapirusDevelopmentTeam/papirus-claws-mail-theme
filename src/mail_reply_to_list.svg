@@ -51,7 +51,7 @@
     <style
        type="text/css"
        id="current-color-scheme">
-   .ColorScheme-Text { color:#5c616c; } .ColorScheme-Highlight { color:#5294e2; } .ColorScheme-ButtonBackground { color:#d3dae3; }
+   .ColorScheme-Text { color:#444444; } .ColorScheme-Highlight { color:#4285f4; } .ColorScheme-ButtonBackground { color:#dfdfdf; }
   </style>
   </defs>
   <path
@@ -62,7 +62,7 @@
      id="path7" />
   <path
      inkscape:connector-curvature="0"
-     style="opacity:1;fill:#5c616c;fill-opacity:1"
+     style="opacity:1;fill:#444444;fill-opacity:1"
      d="m 2,13 0,1 5,0 0,-1 -5,0 z m 0,2 0,1 5,0 0,-1 -5,0 z m 0,2 0,1 5,0 0,-1 -5,0 z"
      id="path4143" />
 </svg>
